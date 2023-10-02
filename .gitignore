@@ -1,0 +1,22 @@
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore Visual Studio temporary files and settings directory
+.vs/
+
+# Ignore Visual Studio C++ project files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.suo
+
+# Ignore compiled output
+bin/
+Debug/
+Release/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+
