@@ -1,11 +1,13 @@
 ﻿#include "Prim.h"
 
 
-PrimMST::PrimMST(const vector<vector<int>>& g) : graph(g) {
+PrimMST::PrimMST(const vector<vector<int>>& g) : graph(g) 
+{
     V = graph.size();
 }
 
-int PrimMST::minKey(const vector<int>& key, const vector<bool>& mstSet) {
+int PrimMST::minKey(const vector<int>& key, const vector<bool>& mstSet)
+{
     int min = INF;
     int min_index = -1;
 
